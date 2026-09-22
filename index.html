@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StreamFlix</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-left">
+    <div class="brand small">STREAMFLIX</div>
+    <nav>
+      <a href="#" data-page="home" class="active">Início</a>
+      <a href="#" data-page="series">Séries</a>
+      <a href="#" data-page="filmes">Filmes</a>
+      <a href="#" data-page="lista">Minha Lista</a>
+    </nav>
+  </div>
+  
+  <div class="topbar-right">
+    <input type="text" id="search-input" placeholder="Buscar títulos..." class="search-input">
+  </div>
+</header>
+
+<div class="hero" id="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-title" id="hero-title">Título em Destaque</div>
+    <p class="hero-desc" id="hero-desc"></p>
+    <div class="hero-actions">
+      <button class="btn-play" id="hero-play">▶ Assistir</button>
+      <button class="btn-info" id="hero-info">ⓘ Mais informações</button>
+    </div>
+  </div>
+</div>
+
+<h2 id="page-title" class="page-title"></h2>
+<div id="rows-container" class="rows-container"></div>
+
+
+<div id="modal-overlay" class="modal-overlay">
+  <div class="modal">
+    <button class="modal-close" id="modal-close">✕</button>
+    <div class="modal-banner" id="modal-banner">
+      <div class="modal-banner-title" id="modal-title"></div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-actions">
+        <button class="btn-play small" id="modal-play">▶ Assistir</button>
+        <button class="btn-add" id="modal-add">＋ Minha Lista</button>
+      </div>
+      <div class="modal-meta">
+        <span class="match" id="modal-match"></span>
+        <span id="modal-year"></span>
+        <span id="modal-genre"></span>
+      </div>
+      <p class="modal-desc" id="modal-desc"></p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

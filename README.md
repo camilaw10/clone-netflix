@@ -37,3 +37,5 @@ git clone [https://github.com/camilaw10/clone-netflix.git](https://github.com/ca
 cd clone-netflix
 
 # Abra o arquivo index.html no seu navegador de preferência
+
+👤 Desenvolvido por Camila

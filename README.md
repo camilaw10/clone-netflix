@@ -1,42 +1,39 @@
-# clone-netflix
-Plataforma de streaming web responsiva e interativa inspirada na Netflix, desenvolvida com HTML5, CSS3 e JavaScript (Vanilla JS). Inclui navegação por abas (SPA), busca em tempo real, modal de detalhes e gestão de lista de favoritos com LocalStorage.
+# 🎬 Clone Netflix
 
-StreamFlix é uma plataforma de streaming web interativa e responsiva, inspirada na interface da Netflix. Desenvolvida com HTML5, CSS3 e JavaScript puro (Vanilla JS), a aplicação oferece uma experiência dinâmica de navegação estilo SPA (Single Page Application), permitindo explorar catálogos de filmes e séries, realizar buscas em tempo real e gerenciar uma lista personalizada de favoritos.
-
-https://camilaw10.github.io/clone-netflix/
+> Um projeto de clone da interface da Netflix desenvolvido para praticar conceitos de desenvolvimento web, layout responsivo e estilização com CSS.
 
 ---
 
-# StreamFlix
-
-Uma plataforma de streaming web responsiva e interativa inspirada na Netflix, desenvolvida com HTML5, CSS3 e JavaScript puro (Vanilla JS).
-
----
-
-## Funcionalidades
-
-- Navegação por Abas: Alternância dinâmica entre Início, Séries, Filmes e Minha Lista sem recarregar a página (Single Page Application).
-- Busca em Tempo Real: Filtro instantâneo por título ou gênero no catálogo.
-- Minha Lista (Persistência com LocalStorage): Permite adicionar e remover títulos salvando a preferência no próprio navegador.
-- Modal de Detalhes: Visualização expandida de sinopse, ano, gênero e porcentagem de relevância do título.
-- Layout Responsivo: Adaptado para telas de computadores, tablets e dispositivos móveis.
+## 🔗 Acesse o Projeto Online
+Você pode testar a aplicação diretamente no link abaixo:
+- **[🔗 Ver aplicação na Vercel](https://clone-netflix-roan-xi.vercel.app)**
 
 ---
 
-## Tecnologias Utilizadas
-
-- HTML5: Estruturação semântica da aplicação.
-- CSS3: Estilização com CSS Grid, Flexbox, variáveis CSS e animações para feedback visual.
-- JavaScript (ES6+): Manipulação da DOM, gerenciamento de estado e controle de eventos.
+## 🛠️ Tecnologias Utilizadas
+- **HTML5**: Estruturação semântica das páginas.
+- **CSS3**: Estilização, layout e responsividade.
+- **JavaScript**: Interatividade da interface.
 
 ---
 
-## Estrutura do Projeto
+## 📱 Funcionalidades
+- Layout inspirado na página inicial da Netflix.
+- Seção principal (*Hero*) com destaque para título e botões de ação.
+- Fileiras de conteúdos organizadas por categorias.
+- Design responsivo adaptado para diferentes tamanhos de tela.
 
-```text
-streamflix/
-│
-├── index.html    # Estrutura principal da página
-├── style.css     # Estilização global e responsividade
-├── script.js    # Lógica do catálogo, busca, modal e favoritos
-└── README.md     # Documentação do projeto
+---
+
+## 💻 Como rodar o projeto localmente
+
+Se quiser clonar e executar o projeto na sua máquina, siga os passos abaixo:
+
+```bash
+# Clone este repositório
+git clone [https://github.com/camilaw10/clone-netflix.git](https://github.com/camilaw10/clone-netflix.git)
+
+# Entre na pasta do projeto
+cd clone-netflix
+
+# Abra o arquivo index.html no seu navegador de preferência
